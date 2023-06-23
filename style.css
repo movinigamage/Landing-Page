@@ -4,6 +4,8 @@ body{
     
 }
 
+/* first section */
+
 .section-1{
     background-color: #1f2937;
 }
@@ -28,7 +30,7 @@ a{
     padding: 0 100px;
 }
 
-.container{
+.container-1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,7 +51,7 @@ a{
     font-family: Roboto, sans-serif;
 }
 
-img{
+.header-img{
     width: 360px;
     height: auto;
     padding-left: 48px;
@@ -62,8 +64,8 @@ img{
 }
 
 .text button{
-    background: royalblue;
-    border: 1px solid royalblue;
+    background: #3882f6;
+    border: 1px solid #3882f6;
     cursor: pointer;
     padding: 8px 28px;
     border-radius: 8px;
@@ -71,9 +73,73 @@ img{
     
 }
 
-
 .logo{
     font-size: 24px;
     color: #f9faf8;
+}
+
+
+/* second section*/
+
+.info-title{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+    margin: 16px 0 28px 0;
+}
+
+.container-2{
+    display: flex;
+    justify-content: center;   
+    gap: 32px;
+    
+    
+}
+
+.info{
+    max-width: 200px;
+    text-align: center;
+}
+
+.info-img{
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+}
+
+
+
+/*Third section */
+
+.container-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 38px 0;
+    background-color: #e5e7eb;
+    margin-top: 22px;
+    
+}
+
+
+
+.container-3 p {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+    max-width: 800px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.author{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 21px;
+    color: #1f2937;   
 }
 
